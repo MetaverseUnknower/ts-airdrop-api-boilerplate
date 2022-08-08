@@ -92,4 +92,3 @@ Contact **#Unknower#0677** on Discord for additional support.
 **Bitcoin:**
 
 3B1zLKAoLyDfWjP4f1sy4TBMptDU3zaT9f
-````
