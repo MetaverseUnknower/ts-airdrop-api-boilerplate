@@ -58,7 +58,7 @@ Use the `signedFetch()` method to make a `POST` request that sends up the contra
 These can be found in the URN of your wearable within your Collections page. It will be in the following format:
 `urn:decentraland:matic:collections-v2:[CONTRACT ADDRESS]:[TOKEN ID]`
 
-````
+```
 import { isPreviewMode } from "@decentraland/EnvironmentAPI";
 import { signedFetch } from "@decentraland/SignedFetch";
 
