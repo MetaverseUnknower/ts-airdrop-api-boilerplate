@@ -31,6 +31,10 @@ Here are some security features that may be of use, depending on your type of ai
 
 # Running the project
 
+Navigate to your project directory:
+
+`cd [folder path]/ts-airdrop-api-boilerplate`
+
 Install npm packages:
 
 `npm install`
