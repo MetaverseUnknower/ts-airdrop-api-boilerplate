@@ -1,0 +1,13 @@
+
+version: '3'
+services:
+  dcl-airdrop:
+    # Other configuration
+    container_name: dcl-airdrop
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    env_file: ./.env
+    ports:
+      - "80:8000"
+    restart: on-failure
