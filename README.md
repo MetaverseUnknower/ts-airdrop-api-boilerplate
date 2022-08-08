@@ -31,6 +31,10 @@ Here are some security features that may be of use, depending on your type of ai
 
 # Running the project
 
+Install npm packages:
+
+`npm install`
+
 To run the project in development mode with hot reloading:
 
 `npm run dev` 
@@ -39,9 +43,18 @@ To run the project in production mode:
 
 `npm run start`
 
+To run the project in a docker container:
+
+`docker-compose up`
+
 # Support
 Contact **#Unknower#0677** on Discord for additional support.
 
 # Donate
-*ETH/ERC20 Tokens:* 0xc2877b05CFe462E585fE3DE8046F7528998aF6F1
-*Bitcoin:* 3B1zLKAoLyDfWjP4f1sy4TBMptDU3zaT9f
+**ETH/ERC20 Tokens:** 
+
+0xc2877b05CFe462E585fE3DE8046F7528998aF6F1
+
+**Bitcoin:** 
+
+3B1zLKAoLyDfWjP4f1sy4TBMptDU3zaT9f
