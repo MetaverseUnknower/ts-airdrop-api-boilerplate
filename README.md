@@ -32,9 +32,11 @@ Here are some security features that may be of use, depending on your type of ai
 # Running the project
 
 To run the project in development mode with hot reloading:
+
 `npm run dev` 
 
 To run the project in production mode:
+
 `npm run start`
 
 # Support
