@@ -21,7 +21,7 @@ Here are some security features that may be of use, depending on your type of ai
 
 - Create a `.env` file from the example files (`.env.dev.example` for development environment, `.env.prod.example` for production.) 
 
-- Within your `.env` file, change `ACCOUNT_PRIVATE_KEY` to the private key for your minting wallet. *Never remove the .env file from your .gitignore file!*
+- Within your `.env` file, change `ACCOUNT_PRIVATE_KEY` to the private key for your minting wallet. **Never remove the .env file from your .gitignore file!**
 
 - Create an account on [http://alchemy.com](http://alchemy.com)
 
@@ -38,7 +38,7 @@ To run the project in production mode:
 `npm run start`
 
 # Support
-Contact *#Unknower#0677* on Discord for additional support.
+Contact **#Unknower#0677** on Discord for additional support.
 
 # Donate
 *ETH/ERC20 Tokens:* 0xc2877b05CFe462E585fE3DE8046F7528998aF6F1
