@@ -32,7 +32,7 @@ app.use((req, res, next) => {
     }
     res.header("Access-Control-Allow-Origin", origin);
   } else {
-    const allowedOrigins = ["http://localhost:8000"];
+    const allowedOrigins = ["http://localhost:8000", "http://127.0.0.1:8000"];
     const origin = req.headers.origin;
 
     console.log("Request origin is: ", origin);
