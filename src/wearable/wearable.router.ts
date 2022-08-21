@@ -7,7 +7,7 @@ import { VALID_SIGNATURE_TOLERANCE_INTERVAL_MS, Metadata } from "../security/uti
 export const wearableRouter = express.Router();
 
 wearableRouter.post("/claim", 
-// dclExpress({ expiration: VALID_SIGNATURE_TOLERANCE_INTERVAL_MS }), 
+dclExpress({ expiration: VALID_SIGNATURE_TOLERANCE_INTERVAL_MS }), 
 async (req: Request & DecentralandSignatureData<Metadata>, res: Response) => {
   const artClaim: WearableClaim = {
     wallet: req.auth,
